@@ -16,6 +16,8 @@ dist-installer/
 dist-portable/
 packaging/version_info.txt
 release-work/
+VeilClip-Portable-*.zip
+VeilClip-Setup-*.exe
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
