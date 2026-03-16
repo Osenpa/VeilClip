@@ -1,7 +1,7 @@
 #define AppName "VeilClip"
 #define AppPublisher "Osenpa"
 #define AppPublisherURL "https://osenpa.com"
-#define AppSupportURL "https://osenpa.com"
+#define AppSupportURL "https://osenpa.com/veilclip"
 #define AppUpdatesURL "https://codeberg.org/Osenpa/veilclip/releases"
 #define AppExeName "VeilClip.exe"
 #ifndef AppVersion

@@ -17,6 +17,7 @@ Please do **not** post security problems in a public Codeberg issue first.
 Instead, report them privately:
 
 - Email: `osenpacom@gmail.com`
+- App page: `https://osenpa.com/veilclip`
 - Website: `https://osenpa.com`
 
 Use a subject like:

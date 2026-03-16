@@ -29,8 +29,6 @@ $installerReleaseTemplate = Join-Path $repoRoot "releases\$appVersion\INSTALLER_
 $portableReleaseNote = Join-Path $portableDir "VeilClip-Portable-$appVersion-RELEASE.txt"
 $installerExe = Join-Path $installerDir "VeilClip-Setup-$appVersion.exe"
 $installerReleaseNote = Join-Path $installerDir "VeilClip-Setup-$appVersion-RELEASE.txt"
-$portableChecksum = Join-Path $portableDir "VeilClip-Portable-$appVersion.zip.sha256"
-$installerChecksum = Join-Path $installerDir "VeilClip-Setup-$appVersion.exe.sha256"
 
 if (-not (Test-Path $portableReleaseTemplate)) {
     throw "Portable release template not found: $portableReleaseTemplate"
@@ -51,21 +49,6 @@ if (-not $InnoSetupCompiler) {
 
 if (-not $InnoSetupCompiler) {
     throw "ISCC.exe not found. Install Inno Setup 6 or pass -InnoSetupCompiler."
-}
-
-function Write-Sha256File {
-    param(
-        [Parameter(Mandatory = $true)][string]$SourcePath,
-        [Parameter(Mandatory = $true)][string]$OutputPath
-    )
-
-    if (-not (Test-Path $SourcePath)) {
-        throw "Cannot create checksum. File not found: $SourcePath"
-    }
-
-    $hash = (Get-FileHash -Path $SourcePath -Algorithm SHA256).Hash.ToLowerInvariant()
-    $line = "$hash  $(Split-Path -Leaf $SourcePath)"
-    Set-Content -Path $OutputPath -Value $line -Encoding ascii
 }
 
 Push-Location $repoRoot
@@ -122,14 +105,12 @@ VSVersionInfo(
     Copy-Item -Path (Join-Path $repoRoot "LICENSE") -Destination (Join-Path $portableStageDir "LICENSE.txt") -Force
     Compress-Archive -Path $portableStageDir -DestinationPath $portableZip -Force
     Copy-Item -Path $portableReleaseTemplate -Destination $portableReleaseNote -Force
-    Write-Sha256File -SourcePath $portableZip -OutputPath $portableChecksum
 
     & $InnoSetupCompiler "/DAppVersion=$appVersion" $issPath
     if ($LASTEXITCODE -ne 0) {
         throw "Inno Setup build failed."
     }
     Copy-Item -Path $installerReleaseTemplate -Destination $installerReleaseNote -Force
-    Write-Sha256File -SourcePath $installerExe -OutputPath $installerChecksum
 }
 finally {
     Pop-Location

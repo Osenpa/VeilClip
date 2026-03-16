@@ -35,6 +35,7 @@ Portable EXE ZIP:
 ## Links
 
 - Website: https://osenpa.com
+- App page: https://osenpa.com/veilclip
 - Codeberg repository: https://codeberg.org/Osenpa/veilclip
 - Donate: https://osenpa.com/donate
 - Email: osenpacom@gmail.com
@@ -46,6 +47,6 @@ Portable EXE ZIP:
 - image entries are skipped during JSON and CSV import
 - Favorites remain independent from normal history deletion once saved
 
-## Verification
+## Release Notes
 
-Download the checksum files attached to this release and verify the asset you use before running it.
+- the portable ZIP includes `RELEASE.txt` and `LICENSE.txt` inside the package folder

@@ -11,6 +11,7 @@ What this package is for:
 
 Project links:
 - Website: https://osenpa.com
+- App page: https://osenpa.com/veilclip
 - Codeberg: https://codeberg.org/Osenpa/veilclip
 - Donate: https://osenpa.com/donate
 - Email: osenpacom@gmail.com

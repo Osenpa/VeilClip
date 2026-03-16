@@ -15,8 +15,8 @@ powershell -ExecutionPolicy Bypass -File .\tools\build_installer.ps1
 
 After a successful build:
 
-- `dist-installer/` contains the installer `.exe`, sidecar release note, and checksum file
-- `dist-portable/` contains the portable `.zip`, sidecar release note, and checksum file
+- `dist-installer/` contains the installer `.exe` and sidecar release note
+- `dist-portable/` contains the portable `.zip` and optional sidecar release note
 - the portable ZIP contains a single folder with `VeilClip.exe`, bundled runtime files, `RELEASE.txt`, and `LICENSE.txt`
 
 ## Release Sources
@@ -33,4 +33,4 @@ After a successful build:
 - test installer install, launch, uninstall, and startup shortcut behavior
 - test portable ZIP extraction and first launch
 - verify website, app page, donate, email, and Codeberg links
-- verify checksums after build
+- verify the portable ZIP includes `RELEASE.txt` and `LICENSE.txt`

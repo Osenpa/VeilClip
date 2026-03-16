@@ -36,7 +36,7 @@ TEXT_DIM = "#7B7D8E"
 BORDER   = "#2A2D3E"
 
 CONTACT_EMAIL   = "osenpacom@gmail.com"
-CONTACT_WEBSITE = "https://osenpa.com"
+CONTACT_WEBSITE = "https://osenpa.com/veilclip"
 
 HELP_SECTIONS = [
     {

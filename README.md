@@ -7,6 +7,7 @@ If you are looking for a Windows clipboard history app, a privacy-first clipboar
 ## Quick Links
 
 - Website: [osenpa.com](https://osenpa.com)
+- App page: [osenpa.com/veilclip](https://osenpa.com/veilclip)
 - Codeberg: [codeberg.org/Osenpa/veilclip](https://codeberg.org/Osenpa/veilclip)
 - Donate: [osenpa.com/donate](https://osenpa.com/donate)
 - Contact: [osenpacom@gmail.com](mailto:osenpacom@gmail.com)
