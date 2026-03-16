@@ -1,0 +1,21 @@
+VeilClip 1.0.0 - Installer Release
+
+Asset:
+- VeilClip-Setup-1.0.0.exe
+
+What this package is for:
+- guided installation on Windows
+- optional desktop shortcut
+- Start Menu integration
+- standard uninstall support
+
+Project links:
+- Website: https://osenpa.com
+- Codeberg: https://codeberg.org/Osenpa/veilclip
+- Donate: https://osenpa.com/donate
+- Email: osenpacom@gmail.com
+
+Notes:
+- User data is stored in %APPDATA%\VeilClip
+- This installer is for Windows 10 and Windows 11
+- The portable no-install alternative is published separately as VeilClip-Portable-1.0.0.zip

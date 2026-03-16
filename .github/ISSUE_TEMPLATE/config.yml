@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:osenpacom@gmail.com
+    about: Please report security problems privately by email.
+  - name: Support
+    url: https://osenpa.com
+    about: Use the app page for documentation, contact details, and project links.

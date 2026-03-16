@@ -1,0 +1,59 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+dist-installer/
+dist-portable/
+packaging/version_info.txt
+release-work/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.manifest
+*.spec.bak
+*.toc
+*.pyz
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Runtime data
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Local app settings
+config.json
+
+# Local backup and export files
+backups/
+exports/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

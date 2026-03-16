@@ -1,0 +1,17 @@
+{
+  "first_run": true,
+  "language": "en",
+  "hotkey": "alt+v",
+  "window_w": 700,
+  "window_h": 660,
+  "open_at_cursor": false,
+  "close_after_copy": true,
+  "always_on_top": true,
+  "close_on_outside_click": false,
+  "auto_delete": true,
+  "auto_delete_hours": 24,
+  "backup_dir": "",
+  "backup_hours": 24,
+  "backup_keep": 7,
+  "db_path": ""
+}

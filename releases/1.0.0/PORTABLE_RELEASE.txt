@@ -1,0 +1,23 @@
+VeilClip 1.0.0 - Portable EXE ZIP
+
+Included in this folder:
+- VeilClip.exe
+- bundled runtime files
+- RELEASE.txt
+- LICENSE.txt
+
+What this package is for:
+- no-install portable usage
+- extraction to any writable folder
+- manual launch of VeilClip.exe
+
+Project links:
+- Website: https://osenpa.com
+- Codeberg: https://codeberg.org/Osenpa/veilclip
+- Donate: https://osenpa.com/donate
+- Email: osenpacom@gmail.com
+
+Notes:
+- User data is still stored in %APPDATA%\VeilClip by default
+- Delete the extracted folder to remove the binaries
+- Delete %APPDATA%\VeilClip manually if you want to remove local app data too
