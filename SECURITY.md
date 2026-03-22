@@ -12,7 +12,7 @@ At this stage, security fixes are expected to focus on the newest active codebas
 
 ## How to Report a Security Problem
 
-Please do **not** post security problems in a public Codeberg issue first.
+Please do **not** post security problems in a public repository issue first.
 
 Instead, report them privately:
 

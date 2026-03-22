@@ -8,7 +8,7 @@ This file explains the fastest way to get help with VeilClip.
 
 Use one of these options:
 
-- open a Codeberg issue for bugs or feature ideas
+- open a repository issue for bugs or feature ideas
 - email `osenpacom@gmail.com` for private questions
 - visit [osenpa.com/veilclip](https://osenpa.com/veilclip) for app details
 - visit [osenpa.com](https://osenpa.com) for general project details
@@ -74,7 +74,7 @@ Use:
 - a **bug report** when something is broken
 - a **feature request** when you want something new or better
 
-The primary public tracker for VeilClip is the Codeberg issue tracker.
+The primary public tracker for VeilClip is the repository issue tracker on the platform where you are viewing the project.
 
 ## Security Problems
 

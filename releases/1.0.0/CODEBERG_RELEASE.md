@@ -37,6 +37,7 @@ Portable EXE ZIP:
 - Website: https://osenpa.com
 - App page: https://osenpa.com/veilclip
 - Codeberg repository: https://codeberg.org/Osenpa/veilclip
+- GitHub repository: https://github.com/Osenpa/VeilClip
 - Donate: https://osenpa.com/donate
 - Email: osenpacom@gmail.com
 

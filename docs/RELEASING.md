@@ -32,5 +32,5 @@ After a successful build:
 - confirm `README.md`, `CHANGELOG.md`, `LICENSE`, `SECURITY.md`, and `SUPPORT.md` are current
 - test installer install, launch, uninstall, and startup shortcut behavior
 - test portable ZIP extraction and first launch
-- verify website, app page, donate, email, and Codeberg links
+- verify website, app page, donate, email, GitHub, and Codeberg links
 - verify the portable ZIP includes `RELEASE.txt` and `LICENSE.txt`

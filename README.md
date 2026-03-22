@@ -8,6 +8,7 @@ If you are looking for a Windows clipboard history app, a privacy-first clipboar
 
 - Website: [osenpa.com](https://osenpa.com)
 - App page: [osenpa.com/veilclip](https://osenpa.com/veilclip)
+- GitHub: [github.com/Osenpa/VeilClip](https://github.com/Osenpa/VeilClip)
 - Codeberg: [codeberg.org/Osenpa/veilclip](https://codeberg.org/Osenpa/veilclip)
 - Donate: [osenpa.com/donate](https://osenpa.com/donate)
 - Contact: [osenpacom@gmail.com](mailto:osenpacom@gmail.com)
@@ -141,7 +142,7 @@ Packaged releases do not require Python.
 
 ## Downloads
 
-VeilClip is released in two separate Windows formats on the Codeberg release page:
+VeilClip is released in two separate Windows formats through the repository release pages:
 
 - Installer: `VeilClip-Setup-<version>.exe`
 - Portable EXE ZIP: `VeilClip-Portable-<version>.zip`
@@ -166,7 +167,7 @@ Both formats use `%APPDATA%\VeilClip` for user data by default.
 ### 1. Clone the repository
 
 ```powershell
-git clone https://codeberg.org/Osenpa/veilclip.git
+git clone https://github.com/Osenpa/VeilClip.git
 cd veilclip
 ```
 
@@ -264,11 +265,11 @@ This repository includes:
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a Codeberg pull request.
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request or merge request.
 
 ## Security
 
-If you find a security issue, read [SECURITY.md](SECURITY.md) and report it privately before opening a public ticket.
+If you find a security issue, read [SECURITY.md](SECURITY.md) and report it privately before opening a public issue.
 
 ## Support
 

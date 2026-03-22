@@ -8,13 +8,13 @@ This project follows a simple human-readable changelog format so users can quick
 
 ### Added
 
-- Codeberg-ready repository metadata and release-document templates
+- repository metadata and release-document templates
 - portable package release note template for bundled `RELEASE.txt`
 - maintainer release workflow documentation
 
 ### Changed
 
-- repository documentation now points to Codeberg, the project website, the donate page, and the support email
+- repository documentation now points to repository hosts, the project website, the donate page, and the support email
 - release preparation now targets separate installer and portable EXE ZIP assets
 
 ### Removed

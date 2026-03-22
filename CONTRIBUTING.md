@@ -31,7 +31,7 @@ You can help by:
 ### 1. Clone the project
 
 ```powershell
-git clone https://codeberg.org/Osenpa/veilclip.git
+git clone https://github.com/Osenpa/VeilClip.git
 cd veilclip
 ```
 
@@ -95,7 +95,7 @@ If you add or update translations:
 
 ## How to Report a Bug
 
-Open a Codeberg issue and include:
+Open a repository issue and include:
 
 - what you expected to happen
 - what actually happened
@@ -135,7 +135,7 @@ Explain:
 2. Make one focused change or one small group of related changes.
 3. Test your change manually.
 4. Update docs if behavior changed.
-5. Open a pull request on Codeberg with a clear title and description.
+5. Open a pull request or merge request with a clear title and description.
 
 Good pull requests usually include:
 
@@ -215,6 +215,6 @@ Please avoid:
 
 ## Questions
 
-If you are not sure where to start, open a Codeberg issue or use the support guidance in `SUPPORT.md`.
+If you are not sure where to start, open a repository issue or use the support guidance in `SUPPORT.md`.
 
 Thank you for helping make VeilClip better.
