@@ -10,6 +10,7 @@ Use one of these options:
 
 - open a repository issue for bugs or feature ideas
 - email `osenpacom@gmail.com` for private questions
+- install or review the app on Microsoft Store: [VeilClip](https://apps.microsoft.com/detail/9PLS27LJP9Q5)
 - visit [osenpa.com/veilclip](https://osenpa.com/veilclip) for app details
 - visit [osenpa.com](https://osenpa.com) for general project details
 - visit [osenpa.com/donate](https://osenpa.com/donate) if you want to support development

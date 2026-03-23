@@ -8,6 +8,7 @@ If you are looking for a Windows clipboard history app, a privacy-first clipboar
 
 - Website: [osenpa.com](https://osenpa.com)
 - App page: [osenpa.com/veilclip](https://osenpa.com/veilclip)
+- Microsoft Store: [VeilClip](https://apps.microsoft.com/detail/9PLS27LJP9Q5)
 - GitHub: [github.com/Osenpa/VeilClip](https://github.com/Osenpa/VeilClip)
 - Codeberg: [codeberg.org/Osenpa/veilclip](https://codeberg.org/Osenpa/veilclip)
 - Donate: [osenpa.com/donate](https://osenpa.com/donate)
@@ -144,6 +145,8 @@ Packaged releases do not require Python.
 
 VeilClip is released in two separate Windows formats through the repository release pages:
 
+- Microsoft Store:
+  - [VeilClip on Microsoft Store](https://apps.microsoft.com/detail/9PLS27LJP9Q5)
 - Installer: `VeilClip-Setup-<version>.exe`
 - Portable EXE ZIP: `VeilClip-Portable-<version>.zip`
 
